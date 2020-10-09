@@ -1,5 +1,5 @@
-.body {
-    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif';
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
     letter-spacing: 0.15px;
     background: #80808024 !important;
     margin: 0px;
@@ -37,6 +37,7 @@
       height: 100%;
       margin: 0%;
     }
+
     a {
       height: 30px;
       padding-bottom: 5px;
@@ -57,34 +58,30 @@
     @media screen and (max-height: 450px) {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
-    }   
-  
+    }     
   
   .icon-nav {    
     height: 22px;
     width: 25px;
     display: inline-block;    
     padding-right: 5px;  
-    vertical-align: middle;
-    background-position: left center;
-    background-repeat: no-repeat;   
+    vertical-align: middle;       
   }
+
   .icon-user {    
     height: 25px;
     width: 25px;
-    display: inline-block;    
-    padding-right: 5px;  
+    display: inline-block;      
     vertical-align: middle;  
     border: #80808024;
     border-style: solid;  
-    border-width: 2px;
-    border-radius: 50%;
+    border-width: 2px;    
     border-radius: 50%;
     background-color:  #80808024;
     margin-right: 5px;
-    background-position: left center;
-    background-repeat: no-repeat; 
+    text-align: center; 
   }  
+
   .bottom {
     position: absolute;
     bottom: 50px;  
@@ -98,15 +95,21 @@
     margin-bottom: 25px;
     margin-top: 21px;
   }
+
   .container {
     display: flex;
-    margin-left: 240px;
-    margin-top: 18px;  
+    margin-left: 240px;      
     background: transparent;
+    position: fixed;
+    top: 18px;
+    width: 86%;
+    margin-right: 18px;
   }
+
   .container > div {
     flex: 1; /*grow*/
   }
+
   .subscribers-box {    
     height: 22px;
     width: 30px;
@@ -116,11 +119,13 @@
     margin-top: 9px; 
     margin-left: 5px;     
   }
+
   .subscribers-aligment {
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 5px;
   }
+
   .subscribers-div {
     border: solid;
     border-color: white;
@@ -133,7 +138,33 @@
     color: #555 !important; 
     font-size: 16px;
   }
+
   .subscribers-name {
     font-size: 10px;
     margin-bottom: 5px;
   }  
+
+  .smart-network {
+    height: 22px;
+    width: 25px;
+    display: inline-block;    
+    padding-right: 5px;  
+    vertical-align: middle;
+    border: #80808024;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-right: 10px;
+    padding: 10px;     
+  }
+
+  .system {
+    height: 10px;
+    width: 50px;
+    display: inline-block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-top: 12px; 
+    vertical-align: middle; 
+  }
+  
