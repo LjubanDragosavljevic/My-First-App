@@ -1,0 +1,241 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+    letter-spacing: 0.15px;
+    background: #80808024 !important;
+    margin: 0px;
+}
+
+.bottomBorder {
+    border-bottom: solid;
+    border-color: #80808024;
+    border-width: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.topBorder {
+    border-top: solid;
+    border-color: #80808024;
+    border-width: 2px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+a:active {
+    background-color: #80808024;
+    border-right: 5px solid #0080ff;
+}
+
+.sidenav {
+    min-width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0px;
+    background: white;
+    overflow-x: hidden;
+    padding: 8px 0;
+    width: 220px;
+    height: 100%;
+    margin: 0%;
+}
+
+a {
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+    letter-spacing: 0.15px;
+    font-size: 13px;
+    color: #555;
+    display: block;
+    min-width: 200px;
+    width: 220px;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.icon-nav {
+    height: 22px;
+    width: 25px;
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.icon-user {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    border: #80808024;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: #80808024;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.bottom {
+    margin-top: 316px;
+    background: white;
+}
+
+.font-size {
+    font-size: 10px !important;
+}
+
+.titleBottom {
+    margin-bottom: 25px;
+    margin-top: 21px;
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+    font-size: 16px !important;
+    letter-spacing: 0.15px;
+}
+
+.container {
+    display: flex;
+    margin-left: 240px;
+    background: transparent;
+    position: fixed;
+    top: 18px;
+    width: 86%;
+    margin-right: 18px;
+}
+.container2 {
+    display: flex;
+    margin-left: 240px;
+    background: white;
+    position: fixed;
+    top: 138px;
+    width: 775px;
+    margin-right: 18px;
+}
+
+.container>div {
+    flex: 1;
+    /*grow*/
+}
+.container2>div {
+    flex: 1;
+    /*grow*/
+}
+
+.subscribers-box {
+    height: 22px;
+    width: 30px;
+    display: inline-block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.subscribers-aligment {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.subscribers-div {
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    margin-right: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif';
+    color: #555 !important;
+    font-size: 16px;
+}
+
+.subscribers-name {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.smart-network {
+    height: 22px;
+    width: 25px;
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    border: #80808024;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.system {
+    height: 10px;
+    width: 50px;
+    display: inline-block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.map {
+    width: 45%;
+    height: 70%;
+    border: 0;
+    position: absolute;
+    right: 18px;
+    top: 138px;
+    border: #80808024;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    overflow: hidden;
+}
+
+.map-height {
+    width: 100%;
+    height: 125%;
+    margin-top: -150px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .container {
+        width: 87.5%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 81.5%;
+    }
+    .bottom {
+        margin-top: 50px;
+        padding-bottom: 20px !important;
+    }
+    .map-height {
+        width: 100%;
+        height: 140%;
+        margin-top: -150px;
+    }
+    .container2 {
+        width:425px;
+    }
+
+}
