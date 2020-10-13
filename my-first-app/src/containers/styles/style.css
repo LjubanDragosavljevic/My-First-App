@@ -40,25 +40,24 @@ body {
 
     a {
       height: 30px;
-      padding-bottom: 5px;
+      padding-bottom: 5px;      
     }
     
     .sidenav a {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+      letter-spacing: 0.15px;      
       font-size: 13px;
       color: #555;
-      display: block;    
+      display: block;
+      min-width: 200px;
+      width:220px;    
     }
     
     .sidenav a:hover {
       color: #064579;
-    }  
-    
-    @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-    }     
+    }    
   
   .icon-nav {    
     height: 22px;
@@ -83,8 +82,8 @@ body {
   }  
 
   .bottom {
-    position: absolute;
-    bottom: 50px;  
+    margin-top: 316px;   
+    background: white;  
   }
   
   .font-size {
@@ -94,6 +93,9 @@ body {
   .titleBottom {
     margin-bottom: 25px;
     margin-top: 21px;
+    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+    font-size: 16px !important;
+    letter-spacing: 0.15px;    
   }
 
   .container {
@@ -167,4 +169,19 @@ body {
     padding-top: 12px; 
     vertical-align: middle; 
   }
-  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 1920px) {
+    .container {width: 87.5%;}
+  }
+
+  @media screen and (max-width: 1280px) {
+    .container {width: 81.5%;}
+    .bottom {
+      margin-top: 50px;
+      padding-bottom: 20px !important;       
+    }
+  }
