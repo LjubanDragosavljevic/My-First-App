@@ -35,7 +35,7 @@ function Subscribers() {
                     <p className="subscribers-aligment subscribers-name">John Miller</p> 
                 </div> 
                 
-            </div>             
+            </div> 
         </div>
     );
 }
