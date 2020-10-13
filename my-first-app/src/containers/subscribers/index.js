@@ -25,7 +25,7 @@ function Subscribers() {
                 <div className="subscribers-div"><img src="images/user.png" alt="" className='subscribers-box'/>
                     <p className="subscribers-aligment">Subscribers</p> 
                     <p className="subscribers-aligment subscribers-name">John Miller</p> 
-                </div> 
+                </div>              
                 <div className="subscribers-div"><img src="images/user.png" alt="" className='subscribers-box'/>
                     <p className="subscribers-aligment">Subscribers</p> 
                     <p className="subscribers-aligment subscribers-name">John Miller</p> 
@@ -33,9 +33,18 @@ function Subscribers() {
                 <div className="subscribers-div"><img src="images/user.png" alt="" className='subscribers-box'/>
                     <p className="subscribers-aligment">Subscribers</p> 
                     <p className="subscribers-aligment subscribers-name">John Miller</p> 
-                </div> 
-                
+                </div>                
             </div> 
+            <div className="container2">              
+                <p>:)</p>
+            </div>
+
+            <div className="map">                 
+                <iframe className="map-height" title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181139.35491648177!2d20.282514448937967!3d44.815403288471224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2sBelgrade!5e0!3m2!1sen!2srs!4v1602606674013!5m2!1sen!2srs"
+                frameborder="0">                
+                </iframe>
+            </div> 
+
         </div>
     );
 }
