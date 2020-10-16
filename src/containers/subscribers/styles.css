@@ -65,7 +65,7 @@ a {
     height: 22px;
     width: 25px;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 10px;
     vertical-align: middle;
 }
 
@@ -79,7 +79,7 @@ a {
     border-width: 2px;
     border-radius: 50%;
     background-color: #80808024;
-    margin-right: 5px;
+    margin-right: 10px;
     text-align: center;
 }
 
@@ -106,17 +106,16 @@ a {
     background: transparent;
     position: fixed;
     top: 18px;
-    width: 86%;
-    margin-right: 18px;
+    width: 87.5%;    
 }
 .container2 {
     display: flex;
-    margin-left: 240px;
-    background: white;
+    margin-left: 240px;    
     position: fixed;
     top: 138px;
-    width: 775px;
-    margin-right: 18px;
+    width: 87.5%;    
+    background: transparent;
+    height: 100%
 }
 
 .container>div {
@@ -161,6 +160,25 @@ a {
     font-size: 10px;
     margin-bottom: 5px;
 }
+.infoBar1 {
+    height: 72px;
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    border-radius: 5px;
+    background: white;
+    margin-right: 18px;
+}
+.infoBar2 {    
+    height: 272px;    
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    border-radius: 5px;
+    background: white;
+    margin-right: 18px;    
+    margin-top: 18px;
+}
 
 .smart-network {
     height: 22px;
@@ -188,16 +206,13 @@ a {
 
 .map {
     width: 45%;
-    height: 70%;
-    border: 0;
-    position: absolute;
-    right: 18px;
-    top: 138px;
-    border: #80808024;
+    height: 70%;       
+    border:#80808024 !important;
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
     overflow: hidden;
+    margin-right: 18px;
 }
 
 .map-height {
@@ -206,18 +221,22 @@ a {
     margin-top: -150px;
 }
 
+.infoDiv {
+    background: white !important;
+    position: fixed;
+    top: 283px;
+    right: 70px;
+    height: 500px;
+    width: 300px;
+    
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
     }
     .sidenav a {
         font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 1920px) {
-    .container {
-        width: 87.5%;
     }
 }
 
@@ -233,9 +252,5 @@ a {
         width: 100%;
         height: 140%;
         margin-top: -150px;
-    }
-    .container2 {
-        width:425px;
-    }
-
+    }   
 }
