@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import ProgressBar from './progress-bar/index';
+import App from '../progress-bar/app.js';
 
 function Subscribers() {
   return (
@@ -69,7 +69,7 @@ function Subscribers() {
 
       <div className="container2">
         <div>
-          <div id="progressBar1" className="infoBar1">
+          <div className="infoBar1">
             <p>:)</p>
             <div id="app"></div>
           </div>

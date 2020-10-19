@@ -1,55 +1,37 @@
 import React from 'react';
-import './styles.css';
-
-class ProgressBarExample extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      percentage: 0,
-    };
-
-    this.nextStep = this.nextStep.bind(this);
-  }
-
-  nextStep() {
-    if (this.state.percentage === 100) return;
-    this.setState((prevState) => ({ percentage: prevState.percentage + 20 }));
-  }
-
-  render() {
-    return (
-      <div>
-        <h2> A React Progress Bar </h2>
-        <ProgressBar percentage={this.state.percentage} />
-
-        <div style={{ marginTop: '20px' }}>
-          <button onClick={this.nextStep}>Next Step</button>
-        </div>
-
-        <div
-          style={{ marginTop: '10px', color: 'blue', marginBottom: '15px' }}
-          onClick={() => this.setState({ percentage: 0 })}
-        >
-          Reset
-        </div>
-      </div>
-    );
-  }
-}
 
 const ProgressBar = (props) => {
+  const { bgcolor, completed } = props;
+
+  const containerStyles = {
+    height: 20,
+    width: '100%',
+    backgroundColor: '#e0e0de',
+    borderRadius: 50,
+    margin: 50,
+  };
+
+  const fillerStyles = {
+    height: '100%',
+    width: `${completed}%`,
+    backgroundColor: bgcolor,
+    borderRadius: 'inherit',
+    textAlign: 'right',
+  };
+
+  const labelStyles = {
+    padding: 5,
+    color: 'white',
+    fontWeight: 'bold',
+  };
+
   return (
-    <div className="progress-bar">
-      <Filler percentage={props.percentage} />
+    <div style={containerStyles}>
+      <div style={fillerStyles}>
+        <span style={labelStyles}>{`${completed}%`}</span>
+      </div>
     </div>
   );
 };
-
-const Filler = (props) => {
-  return <div className="filler" style={{ width: `${props.percentage}%` }} />;
-};
-
-ReactDOM.render(<ProgressBarExample />, document.querySelector('#app'));
 
 export default ProgressBar;
