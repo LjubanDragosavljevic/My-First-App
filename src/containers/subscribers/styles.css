@@ -227,9 +227,23 @@ a {
     top: 283px;
     right: 70px;
     height: 500px;
-    width: 300px;
-    
+    width: 300px;    
 }
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;    
+  }
+    
+
 
 @media screen and (max-height: 450px) {
     .sidenav {

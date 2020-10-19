@@ -1,17 +1,23 @@
 import React from 'react';
-import './styles.css';
 
-const ProgressBar = (props) => {
-  return (
-    <div className="progress-bar">
-      <Filler />
-    </div>
-  );
+let i = 0;
+return function Move() {
+  if (i === 0) {
+    i = 1;
+    let elem = document.getElementById('myBar');
+    let width = 10;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + '%';
+        elem.innerHTML = width + '%';
+      }
+    }
+  }
 };
-const Filler = (props) => {
-  return <div classname="filler"></div>;
-};
 
-const PrBar = document.getElementById('progressBar1');
-
-export default ProgressBar;
+export default Move;
