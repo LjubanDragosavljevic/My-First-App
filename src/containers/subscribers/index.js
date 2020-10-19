@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import ProgressBar from '../progress-bar/index';
 
 function Subscribers() {
   return (
@@ -70,7 +71,7 @@ function Subscribers() {
         <div>
           <div className="infoBar1">
             <p>:)</p>
-            <div id="app"></div>
+            <div id="progressBar1"></div>
           </div>
 
           <div className="infoBar2">
