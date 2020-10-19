@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import App from '../progress-bar/app.js';
 
 function Subscribers() {
   return (
