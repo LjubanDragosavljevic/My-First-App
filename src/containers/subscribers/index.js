@@ -65,18 +65,31 @@ function Subscribers() {
           <p className="subscribers-aligment">Subscribers</p>
           <p className="subscribers-aligment subscribers-name">John Miller</p>
         </div>
+        <div className="subscribers-div">
+          <img src="images/user.png" alt="" className="subscribers-box" />
+          <p className="subscribers-aligment">Subscribers</p>
+          <p className="subscribers-aligment subscribers-name">John Miller</p>
+        </div>
+        <div className="subscribers-div">
+          <img src="images/user.png" alt="" className="subscribers-box" />
+          <p className="subscribers-aligment">Subscribers</p>
+          <p className="subscribers-aligment subscribers-name">John Miller</p>
+        </div>
       </div>
 
       <div className="container2">
         <div>
           <div className="infoBar1">
-            <div id="myProgress">
-              <div id="myBar" max="10" value="5">
-                10%
+            <div className="divgb">
+              <div>
+                <p className="pgb">JUNE UTILIZATION <span className="sgb">LIMIT: 35GB</span></p>
+              </div>
+              <div id="myProgress" onClick={Move}>
+                <div id="myBar" max="10" value="5">
+                  14.1GB
+              </div>
               </div>
             </div>
-            <br />
-            <button onClick={Move}>Click Me</button>
           </div>
 
           <div className="infoBar2">

@@ -1,270 +1,289 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
-    letter-spacing: 0.15px;
-    background: #80808024 !important;
-    margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+  letter-spacing: 0.15px;
+  background: #80808024 !important;
+  margin: 0px;
 }
 
 .bottomBorder {
-    border-bottom: solid;
-    border-color: #80808024;
-    border-width: 2px;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
+  border-bottom: solid;
+  border-color: #80808024;
+  border-width: 2px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .topBorder {
-    border-top: solid;
-    border-color: #80808024;
-    border-width: 2px;
-    padding-bottom: 0px;
-    width: 100%;
+  border-top: solid;
+  border-color: #80808024;
+  border-width: 2px;
+  padding-bottom: 0px;
+  width: 100%;
 }
 
 a:active {
-    background-color: #80808024;
-    border-right: 5px solid #0080ff;
+  background-color: #80808024;
+  border-right: 5px solid #0080ff;
 }
 
 .sidenav {
-    min-width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0%;
-    left: 0px;
-    background: white;
-    overflow-x: hidden;
-    padding: 8px 0;
-    width: 220px;
-    height: 100%;
-    margin: 0%;
+  min-width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  left: 0px;
+  background: white;
+  overflow-x: hidden;
+  padding: 8px 0;
+  width: 220px;
+  height: 100%;
+  margin: 0%;
 }
 
 a {
-    height: 30px;
-    padding-bottom: 5px;
+  height: 30px;
+  padding-bottom: 5px;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
-    letter-spacing: 0.15px;
-    font-size: 13px;
-    color: #555;
-    display: block;
-    min-width: 200px;
-    width: 220px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+  letter-spacing: 0.15px;
+  font-size: 13px;
+  color: #555;
+  display: block;
+  min-width: 200px;
+  width: 220px;
 }
 
 .sidenav a:hover {
-    color: #064579;
+  color: #064579;
 }
 
 .icon-nav {
-    height: 22px;
-    width: 25px;
-    display: inline-block;
-    padding-right: 10px;
-    vertical-align: middle;
+  height: 22px;
+  width: 25px;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 .icon-user {
-    height: 25px;
-    width: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    border: #80808024;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 50%;
-    background-color: #80808024;
-    margin-right: 10px;
-    text-align: center;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  border: #80808024;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  background-color: #80808024;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .bottom {
-    margin-top: 316px;
-    background: white;
+  margin-top: 316px;
+  background: white;
 }
 
 .font-size {
-    font-size: 10px !important;
+  font-size: 10px !important;
 }
 
 .titleBottom {
-    margin-bottom: 25px;
-    margin-top: 21px;
-    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
-    font-size: 16px !important;
-    letter-spacing: 0.15px;
+  margin-bottom: 25px;
+  margin-top: 21px;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+  font-size: 16px !important;
+  letter-spacing: 0.15px;
 }
 
 .container {
-    display: flex;
-    margin-left: 240px;
-    background: transparent;
-    position: fixed;
-    top: 18px;
-    width: 87.5%;    
+  display: flex;
+  margin-left: 240px;
+  background: transparent;
+  position: fixed;
+  top: 18px;
+  width: 87.5%;
 }
 .container2 {
-    display: flex;
-    margin-left: 240px;    
-    position: fixed;
-    top: 138px;
-    width: 87.5%;    
-    background: transparent;
-    height: 100%
+  display: flex;
+  margin-left: 240px;
+  position: fixed;
+  top: 138px;
+  width: 87.5%;
+  background: transparent;
+  height: 100%;
 }
 
-.container>div {
-    flex: 1;
-    /*grow*/
+.container > div {
+  flex: 1;
+  /*grow*/
 }
-.container2>div {
-    flex: 1;
-    /*grow*/
+.container2 > div {
+  flex: 1;
+  /*grow*/
 }
 
 .subscribers-box {
-    height: 22px;
-    width: 30px;
-    display: inline-block;
-    background-position: left center;
-    background-repeat: no-repeat;
-    margin-top: 9px;
-    margin-left: 5px;
+  height: 22px;
+  width: 30px;
+  display: inline-block;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  margin-left: 5px;
 }
 
 .subscribers-aligment {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
 
 .subscribers-div {
-    border: solid;
-    border-color: white;
-    border-width: 0.5px;
-    border-radius: 5px;
-    background: white;
-    padding: 5px;
-    margin-right: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif';
-    color: #555 !important;
-    font-size: 16px;
+  border: solid;
+  border-color: white;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+  margin-right: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif';
+  color: #555 !important;
+  font-size: 16px;
 }
 
 .subscribers-name {
-    font-size: 10px;
-    margin-bottom: 5px;
+  font-size: 10px;
+  margin-bottom: 5px;
 }
 .infoBar1 {
-    height: 72px;
-    border: solid;
-    border-color: white;
-    border-width: 0.5px;
-    border-radius: 5px;
-    background: white;
-    margin-right: 18px;
+  height: 72px;
+  border: solid;
+  border-color: white;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background: white;
+  margin-right: 18px;
 }
-.infoBar2 {    
-    height: 272px;    
-    border: solid;
-    border-color: white;
-    border-width: 0.5px;
-    border-radius: 5px;
-    background: white;
-    margin-right: 18px;    
-    margin-top: 18px;
+.infoBar2 {
+  height: 272px;
+  border: solid;
+  border-color: white;
+  border-width: 0.5px;
+  border-radius: 5px;
+  background: white;
+  margin-right: 18px;
+  margin-top: 18px;
 }
 
 .smart-network {
-    height: 22px;
-    width: 25px;
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: middle;
-    border: #80808024;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 2px;
-    margin-right: 10px;
-    padding: 10px;
+  height: 22px;
+  width: 25px;
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+  border: #80808024;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 .system {
-    height: 10px;
-    width: 50px;
-    display: inline-block;
-    background-position: left center;
-    background-repeat: no-repeat;
-    padding-top: 12px;
-    vertical-align: middle;
+  height: 10px;
+  width: 50px;
+  display: inline-block;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-top: 12px;
+  vertical-align: middle;
 }
 
 .map {
-    width: 45%;
-    height: 70%;       
-    border:#80808024 !important;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 2px;
-    overflow: hidden;
-    margin-right: 18px;
+  width: 45%;
+  height: 70%;
+  border: #80808024 !important;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  overflow: hidden;
+  margin-right: 18px;
 }
 
 .map-height {
-    width: 100%;
-    height: 125%;
-    margin-top: -150px;
+  width: 100%;
+  height: 125%;
+  margin-top: -150px;
 }
 
 .infoDiv {
-    background: white !important;
-    position: fixed;
-    top: 283px;
-    right: 70px;
-    height: 500px;
-    width: 300px;    
+  background: white !important;
+  position: fixed;
+  top: 283px;
+  right: 70px;
+  height: 500px;
+  width: 300px;
 }
 #myProgress {
-    width: 100%;
-    background-color: #ddd;
-  }
-  
-  #myBar {
-    width: 10%;
-    height: 30px;
-    background-color: #4CAF50;
-    text-align: center;
-    line-height: 30px;
-    color: white;    
-  }
-    
+  width: 317px;
+  background-color: white;
+  border: solid 2px #80808024;
+  border-radius: 15px;
+}
 
+#myBar {
+  width: 50%;
+  height: 8px;
+  background-color: #808080db;
+  text-align: center;
+  line-height: 8px;
+  color: white;
+  font-size: 10px;
+  border: solid 2px #80808024;
+  border-radius: 15px;
+}
+.divgb {
+  height: fit-content;
+  width: fit-content;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.pgb {
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+  color: #555;
+  margin-bottom: 2px;
+}
+.sgb {
+  padding-left: 137px;
+  text-align: left;
+}
 
 @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .container {
-        width: 81.5%;
-    }
-    .bottom {
-        margin-top: 50px;
-        padding-bottom: 20px !important;
-    }
-    .map-height {
-        width: 100%;
-        height: 140%;
-        margin-top: -150px;
-    }   
+  .container {
+    width: 81.5%;
+  }
+  .bottom {
+    margin-top: 50px;
+    padding-bottom: 20px !important;
+  }
+  .map-height {
+    width: 100%;
+    height: 140%;
+    margin-top: -150px;
+  }
 }

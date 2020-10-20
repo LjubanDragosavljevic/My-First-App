@@ -1,7 +1,5 @@
-import React from 'react';
-
 let i = 0;
-return function Move() {
+function Move() {
   if (i === 0) {
     i = 1;
     let elem = document.getElementById('myBar');
@@ -14,7 +12,7 @@ return function Move() {
       } else {
         width++;
         elem.style.width = width + '%';
-        elem.innerHTML = width + '%';
+        elem.innerHTML = width * 0.35 + 'gb';
       }
     }
   }
