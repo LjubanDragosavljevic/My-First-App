@@ -94,7 +94,7 @@ function Subscribers() {
               <div>
                 <div id="mbProgress1" className="mbAligment">
                   <div>
-                    A
+                    <img src="images/arrow-up-r.png" alt="" />
                   </div>
                   <div id="mbBar1"> 1520
                   </div>
@@ -102,7 +102,7 @@ function Subscribers() {
               </div>
               <div id="mbProgress2" className="mbAligment">
                 <div>
-                  A
+                  <img src="images/arrow-up-r.png" alt="" />
                 </div>
                 <div id="mbBar2"> 1520
                 </div>

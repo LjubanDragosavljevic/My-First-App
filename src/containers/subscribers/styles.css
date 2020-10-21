@@ -82,6 +82,13 @@ a {
   margin-right: 10px;
   text-align: center;
 }
+.icon-mb {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
 
 .bottom {
   margin-top: 316px;
