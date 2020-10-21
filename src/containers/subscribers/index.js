@@ -85,11 +85,30 @@ function Subscribers() {
                 <p className="pgb">JUNE UTILIZATION <span className="sgb">LIMIT: 35GB</span></p>
               </div>
               <div id="myProgress" onClick={Move}>
-                <div id="myBar" max="10" value="5">
+                <div id="myBar">
                   14.1GB
-              </div>
+                </div>
               </div>
             </div>
+            <div className="divmb">
+              <div>
+                <div id="mbProgress1" className="mbAligment">
+                  <div>
+                    A
+                  </div>
+                  <div id="mbBar1"> 1520
+                  </div>
+                </div>
+              </div>
+              <div id="mbProgress2" className="mbAligment">
+                <div>
+                  A
+                </div>
+                <div id="mbBar2"> 1520
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div className="infoBar2">
@@ -113,7 +132,7 @@ function Subscribers() {
           ></iframe>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
