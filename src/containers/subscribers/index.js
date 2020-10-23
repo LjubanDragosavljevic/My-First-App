@@ -82,43 +82,136 @@ function Subscribers() {
           <div className="infoBar1">
             <div className="divgb">
               <div>
-                <p className="pgb">JUNE UTILIZATION <span className="sgb">LIMIT: 35GB</span></p>
+                <p className="pgb">
+                  JUNE UTILIZATION <span className="sgb">LIMIT: 35GB</span>
+                </p>
               </div>
               <div id="myProgress" onClick={Move}>
-                <div id="myBar">
-                  14.1GB
-                </div>
+                <div id="myBar">14.1GB</div>
               </div>
             </div>
             <div className="divmb">
               <div>
                 <div id="mbProgress1" className="mbAligment">
-                  <div>
-                    <img src="images/arrow-up-r.png" alt="" />
+                  <div className="mbFont1">
+                    <img
+                      src="images/arrow-dl-r.png"
+                      alt=""
+                      className="icon-mb"
+                    />
+                    21.4 Mb/s
                   </div>
-                  <div id="mbBar1"> 1520
-                  </div>
+                  <div id="mbBar1"> 1520</div>
                 </div>
               </div>
               <div id="mbProgress2" className="mbAligment">
-                <div>
-                  <img src="images/arrow-up-r.png" alt="" />
+                <div className="mbFont2">
+                  <img src="images/arrow-up-r.png" alt="" className="icon-mb" />{' '}
+                  4.8 Mb/s
                 </div>
-                <div id="mbBar2"> 1520
+                <div id="mbBar2"> 1520</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="infoBar2">
+            <div className="mbAligment">
+              <div className="barBar">
+                <div className="barText">
+                  <div>
+                    OVERALL <br></br>
+                    INTERNET HEALTH
+                  </div>
+                </div>
+                <div className="mbAligment">
+                  <img
+                    src="images/smiley-happy.png"
+                    alt=""
+                    className="icon-nav"
+                  />
+                  <div id="brCol1" className="barSize"></div>
+                  <div id="brCol2" className="barSize"></div>
+                  <div id="brCol3" className="barSize"></div>
+                  <div id="brCol4" className="barSize"></div>
+                  <div id="brCol5" className="barSize"></div>
+                  <div id="brCol6" className="barSize"></div>
+                  <div id="brCol7" className="barSize"></div>
+                  <div id="brCol8" className="barSize"></div>
+                  <div id="brCol9" className="barSize"></div>
+                  <div id="brCol10" className="barSize"></div>
+                  <div id="brCol11" className="barSize"></div>
+                  <div id="brCol12" className="barSize"></div>
+                </div>
+              </div>
+              <div className="barBar">
+                <div className="barText">
+                  <div>
+                    OVERALL <br></br>
+                    INTERNET HEALTH
+                  </div>
+                </div>
+                <div className="mbAligment">
+                  <div id="brCol13" className="barSize"></div>
+                  <div id="brCol14" className="barSize"></div>
+                  <div id="brCol15" className="barSize"></div>
+                  <div id="brCol16" className="barSize"></div>
+                  <div id="brCol17" className="barSize"></div>
+                  <div id="brCol18" className="barSize"></div>
+                  <div id="brCol19" className="barSize"></div>
+                  <div id="brCol20" className="barSize"></div>
+                  <div id="brCol21" className="barSize"></div>
+                  <div id="brCol22" className="barSize"></div>
+                  <div id="brCol23" className="barSize"></div>
+                  <div id="brCol24" className="barSize"></div>
+                </div>
+              </div>
+              <div className="barBar">
+                <div className="barText">
+                  <div>
+                    OVERALL <br></br>
+                    INTERNET HEALTH
+                  </div>
+                </div>
+                <div className="mbAligment">
+                  <div id="brCol25" className="barSize"></div>
+                  <div id="brCol26" className="barSize"></div>
+                  <div id="brCol27" className="barSize"></div>
+                  <div id="brCol28" className="barSize"></div>
+                  <div id="brCol29" className="barSize"></div>
+                  <div id="brCol30" className="barSize"></div>
+                  <div id="brCol31" className="barSize"></div>
+                  <div id="brCol32" className="barSize"></div>
+                  <div id="brCol33" className="barSize"></div>
+                  <div id="brCol34" className="barSize"></div>
+                  <div id="brCol35" className="barSize"></div>
+                  <div id="brCol36" className="barSize"></div>
+                </div>
+              </div>
+              <div className="barBar">
+                <div className="barText">
+                  <div>
+                    OVERALL <br></br>
+                    INTERNET HEALTH
+                  </div>
+                </div>
+                <div className="mbAligment">
+                  <div id="brCol37" className="barSize2"></div>
+                  <div id="brCol38" className="barSize2"></div>
+                  <div id="brCol39" className="barSize2"></div>
+                  <div id="brCol40" className="barSize2"></div>
+                  <div id="brCol41" className="barSize2"></div>
+                  <div id="brCol42" className="barSize2"></div>
+                  <div id="brCol43" className="barSize2"></div>
+                  <div id="brCol44" className="barSize2"></div>
+                  <div id="brCol45" className="barSize2"></div>
+                  <div id="brCol46" className="barSize2"></div>
+                  <div id="brCol47" className="barSize2"></div>
+                  <div id="brCol48" className="barSize2"></div>
                 </div>
               </div>
             </div>
-
           </div>
-
-          <div className="infoBar2">
-            <img
-              src="images/smiley-happy.png"
-              alt=""
-              className="subscribers-box"
-            />
-          </div>
-          <div className="infoBar2">
+          <div className="infoBar3">
             <p>A</p>
           </div>
         </div>
@@ -132,7 +225,7 @@ function Subscribers() {
           ></iframe>
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 
