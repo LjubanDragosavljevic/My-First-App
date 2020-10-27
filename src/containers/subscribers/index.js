@@ -118,37 +118,40 @@ function Subscribers() {
             <div className="mbAligment">
               <div className="barBar">
                 <div className="barText">
-                  <div>
+                  <p>
                     OVERALL <br></br>
-                    INTERNET HEALTH
-                  </div>
+                    INTERNET HEALTH<br></br>
+                  </p>
                 </div>
                 <div className="mbAligment">
+                  {' '}
                   <img
                     src="images/smiley-happy.png"
                     alt=""
-                    className="icon-nav"
+                    className="icon-smiley"
                   />
-                  <div id="brCol1" className="barSize"></div>
-                  <div id="brCol2" className="barSize"></div>
-                  <div id="brCol3" className="barSize"></div>
-                  <div id="brCol4" className="barSize"></div>
-                  <div id="brCol5" className="barSize"></div>
-                  <div id="brCol6" className="barSize"></div>
-                  <div id="brCol7" className="barSize"></div>
-                  <div id="brCol8" className="barSize"></div>
-                  <div id="brCol9" className="barSize"></div>
-                  <div id="brCol10" className="barSize"></div>
-                  <div id="brCol11" className="barSize"></div>
-                  <div id="brCol12" className="barSize"></div>
+                  <div id="brCol1" className="barSize-smiley"></div>
+                  <div id="brCol2" className="barSize-smiley"></div>
+                  <div id="brCol3" className="barSize-smiley"></div>
+                  <div id="brCol4" className="barSize-smiley"></div>
+                  <div id="brCol5" className="barSize-smiley"></div>
+                  <div id="brCol6" className="barSize-smiley"></div>
+                  <div id="brCol7" className="barSize-smiley"></div>
+                  <div id="brCol8" className="barSize-smiley"></div>
+                  <div id="brCol9" className="barSize-smiley"></div>
+                  <div id="brCol10" className="barSize-smiley"></div>
+                  <div id="brCol11" className="barSize-smiley"></div>
+                  <div id="brCol12" className="barSize-smiley"></div>
                 </div>
               </div>
               <div className="barBar">
-                <div className="barText">
-                  <div>
-                    OVERALL <br></br>
-                    INTERNET HEALTH
-                  </div>
+                <div className="barText2">
+                  <p>
+                    SHORT TERM <br></br>
+                    PACKET LOSS <br></br>
+                    <span className="leftNumb">2%</span>{' '}
+                    <span className="rightNumb">0%</span>
+                  </p>
                 </div>
                 <div className="mbAligment">
                   <div id="brCol13" className="barSize"></div>
@@ -166,11 +169,13 @@ function Subscribers() {
                 </div>
               </div>
               <div className="barBar">
-                <div className="barText">
-                  <div>
-                    OVERALL <br></br>
-                    INTERNET HEALTH
-                  </div>
+                <div className="barText2">
+                  <p>
+                    LONG TERM <br></br>
+                    PACKET LOSS <br></br>
+                    <span className="leftNumb">2%</span>{' '}
+                    <span className="rightNumb">0%</span>
+                  </p>
                 </div>
                 <div className="mbAligment">
                   <div id="brCol25" className="barSize"></div>
@@ -188,11 +193,13 @@ function Subscribers() {
                 </div>
               </div>
               <div className="barBar">
-                <div className="barText">
-                  <div>
-                    OVERALL <br></br>
-                    INTERNET HEALTH
-                  </div>
+                <div className="barText2">
+                  <p>
+                    LATENCY<br></br>
+                    <br></br>
+                    <span className="leftNumb">2%</span>{' '}
+                    <span className="rightNumb">0%</span>
+                  </p>
                 </div>
                 <div className="mbAligment">
                   <div id="brCol37" className="barSize2"></div>
@@ -209,10 +216,37 @@ function Subscribers() {
                   <div id="brCol48" className="barSize2"></div>
                 </div>
               </div>
+              <div className="divCir">
+                <div>
+                  <div className="cirAligment">
+                    <div className="redCir"></div>
+                    <div className="barText2">
+                      <p>MTU</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="cirAligment">
+                    <div className="redCir"></div>
+                    <div className="barText2">
+                      <p>DNS 1</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="cirAligment">
+                    <div className="greenCir"></div>
+                    <div className="barText2">
+                      <p>DNS 2</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="infoBar3">
-            <p>A</p>
+            <p></p>
           </div>
         </div>
 

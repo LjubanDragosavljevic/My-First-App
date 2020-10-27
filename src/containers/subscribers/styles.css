@@ -90,6 +90,14 @@ a {
   vertical-align: middle;
 }
 
+.icon-smiley {
+  height: 22px;
+  width: 25px;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
 .bottom {
   margin-top: 316px;
   background: white;
@@ -180,7 +188,7 @@ a {
   margin-right: 18px;
 }
 .infoBar2 {
-  height: 120px;
+  height: 90px;
   border: solid;
   border-color: white;
   border-width: 0.5px;
@@ -298,6 +306,7 @@ a {
   display: flex;
   padding: 1px;
 }
+
 .mbFont1 {
   font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
   font-size: 10px;
@@ -351,22 +360,34 @@ a {
   width: fit-content;
   margin-top: 20px;
   margin-left: 20px;
+  margin-right: 79px;
 }
-
-.barSize {
+.barSize-smiley {
   display: flex;
-  height: 20px;
-  width: 5px;
+  height: 15px;
+  width: 2px;
   background-color: #00ff08;
   border: solid 1px #00ff08;
+  border-radius: 15px;
+  margin-right: 2px;
+  margin-top: 4px;
+}
+.barSize {
+  display: flex;
+  height: 15px;
+  width: 2px;
+  background-color: #00ff08;
+  border: solid 1px #00ff08;
+  border-radius: 15px;
   margin-right: 2px;
 }
 .barSize2 {
   display: flex;
-  height: 20px;
-  width: 5px;
+  height: 15px;
+  width: 2px;
   background-color: orange;
   border: solid 1px orange;
+  border-radius: 15px;
   margin-right: 2px;
 }
 #brCol46,
@@ -379,7 +400,61 @@ a {
   width: fit-content;
   font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
   font-size: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.barText2 {
+  height: fit-content;
+  width: fit-content;
+  font-family: -apple-system, BlinkMacSystemFont, 'sans-sarif' !important;
+  font-size: 10px;
+}
+
+.barText p {
+  margin: 0px;
+}
+
+.barText2 p {
+  margin: 0px;
+}
+
+.leftNumb {
+  text-align: left;
+  height: fit-content;
+  width: fit-content;
+}
+
+.rightNumb {
+  text-align: right;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 40px;
+}
+.redCir {
+  height: 10px;
+  width: 10px;
+  border: solid 1px red;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 5px;
+}
+.greenCir {
+  height: 10px;
+  width: 10px;
+  border: solid 1px #00ff08;
+  border-radius: 50%;
+  background-color: #00ff08;
+  margin-right: 5px;
+}
+.divCir {
+  height: fit-content;
+  width: fit-content;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cirAligment {
+  display: flex;
+  padding-bottom: 8px;
 }
 
 @media screen and (max-height: 450px) {

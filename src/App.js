@@ -1,15 +1,9 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Accounts from './containers/accounts/index';
 import Networks from './containers/networks/index';
 import Subscribers from './containers/subscribers/index';
-
 
 export default function App() {
   return (

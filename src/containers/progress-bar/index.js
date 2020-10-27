@@ -16,6 +16,6 @@ function Move() {
       }
     }
   }
-};
+}
 
 export default Move;
